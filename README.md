@@ -1,2 +1,24 @@
-# The-Atomic-Blog
-The Atomic Blog web for Git repository. Clone, install, and start the dev server. Features: dark mode, search, add posts, clear posts, and view archive. Deploy a Hugo blog atomically using Git hooks. Point your HTTP server to the symlink for atomic deployment.
+The Atomic Blog
+A React application for creating, searching, and managing blog posts.
+
+Getting Started
+Clone the repository: git clone https://github.com/Mahmoud-AbouDeghedy/Atomic-Blog
+Install dependencies: npm install
+Start the development server: npm start
+Features
+Dark mode toggle
+Search posts by title
+Add new posts
+Clear all posts
+View post archive
+Add archive posts as new posts
+Deploying a Hugo Blog Atomically
+Use Git hooks to deploy a Hugo blog atomically. See the example post-receive hook in this repository for more information.
+
+License
+This project is licensed under the MIT License.
+
+Dependencies
+React
+faker-js
+@faker-js/faker
